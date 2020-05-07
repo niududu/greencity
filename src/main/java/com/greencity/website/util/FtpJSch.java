@@ -22,9 +22,9 @@ public class FtpJSch  {
     //账号
     private static String user = "root";
     //主机ip
-    private static String host =  "120.25.120.159";
+    private static String host =  "";
     //密码
-    private static String password = "DJS@2019tts";
+    private static String password = "";
     //端口
     private static int port = 22;
     //上传地址
