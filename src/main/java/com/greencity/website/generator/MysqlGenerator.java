@@ -24,7 +24,7 @@ public class MysqlGenerator {
 
     private static final String dataBaseName = "greencity";
 
-    private static final String[] tableName = new String[] {"ifo_user","lst_case","lst_invite","lst_news"};
+    private static final String[] tableName = new String[] {"lst_advice"};
 
     private static final String basePackage = "com.greencity.website";
     /**业务模块包*/
@@ -33,7 +33,7 @@ public class MysqlGenerator {
     private static final String dir = "E:/Generator/code1";
 
     /** db config*/
-    private static final String ipAndPort = "localhost:3306";
+    private static final String ipAndPort = "120.25.120.159:3306";
 
     private static final String userName = "root";
 

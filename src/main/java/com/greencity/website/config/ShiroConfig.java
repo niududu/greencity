@@ -91,6 +91,8 @@ public class ShiroConfig {
         filterChainDefinitionMap.put("/configuration/**", "anon");
         //登录接口
         filterChainDefinitionMap.put("/login", "anon");
+        //开放反馈信息API接口
+        filterChainDefinitionMap.put("/lstAdvice/save", "anon");
         //开放所有查询列表接口
         filterChainDefinitionMap.put("/**/list", "anon");
         //对所有用户认证
