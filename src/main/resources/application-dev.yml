@@ -1,5 +1,5 @@
 server:
-  port: 1000
+  port: 1001
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/greencity?serverTimezone=GMT&useUnicode=true&characterEncoding=utf8&autoReconnect=true
